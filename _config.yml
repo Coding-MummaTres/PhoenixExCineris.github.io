@@ -1,0 +1,21 @@
+# Site settings
+title: Nicole Goes Tech: Brain Pickings of A Bemused Career Changer
+header-img: img/home-bg.png
+email: nicole.j.cabbell@gmail.com
+copyright_name: PhoenixExCineris
+description: > # this means to ignore newlines until "baseurl:"
+  Fumbling my way to becoming a full-fledged Full Stack Web Developer
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: nicole_cabbell
+github_username:  PhoenixExCineris
+learn_profile: PhoenixExCineris
+email_username: nicole.j.cabbell@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
